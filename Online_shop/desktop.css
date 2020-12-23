@@ -1,0 +1,106 @@
+body {
+    background-color:#FFF1E5;
+}
+.header {
+    width: calc(100%-80px);
+    position: relative;
+    padding: 0 40px 0 0;
+    background-color: white;
+}
+    .logo {
+height: 100px;
+width: 170px;
+background-size: cover;
+background-image: url(logo.jpg);
+    }
+    .menu {
+        position: absolute;
+        right: 40;
+        top: 32;
+    }
+    .items {
+        color:#B8895C;
+        font-size: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        margin-left:30px;
+        font-weight: 700;
+    }
+    .dress {
+        margin: 25px;
+        width: 300px;
+        height: 480px;
+        border-radius: 25px 25px 0 0;
+        transition: all 0.3s;
+        display: inline-block;
+    }
+    .photo {
+height: 480px;
+background-size: cover;
+border-radius: 15px 15px 0 0;
+background-position: center;
+    }
+    .content {
+background-color: #B8895C;
+border-radius: 0 0 15px 15px ;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .ainfo {
+        color: white;
+        font-size: 24px;
+        padding-top: 3%;
+    }
+    .acontent {
+        color: #ffedda;
+        font-size:18px;
+        padding-bottom: 3%;
+    }
+    .dress:hover {
+box-shadow: 10px 20px 30px #CDBEAF;
+transform: scale(1.05);
+    }
+    .imgdress {
+        margin: 1%;
+        background-position: center;
+        background-size: cover;
+        height: 80%;
+        width: 30%;
+        display: inline-block;
+        border-radius: 3%;
+    }
+    .imginfo {
+        color:#B8895C;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        margin-left:74%;
+        font-weight: 700;
+        margin-top: -41%;
+    }
+    .price {
+        height: 8%;
+        width: 33%;
+        color:#B8895C;
+        font-size: 23px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgba(255, 255, 255, 0.6);
+        position: absolute;
+        top:31%;
+        left:65%;
+        padding-top: 2%;
+        text-align: center;
+    }
+    .info {
+        background-color: rgba(255, 255, 255, 0.6);
+        padding-top: 2%;
+        padding-bottom: 2%;
+        text-align: center;
+        color:#B8895C;
+        font-size: 23px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 33%;
+        top:40%;
+        left:65%;
+        position: absolute;
+    }
